@@ -8,7 +8,7 @@ Specification
 					       -> for content affregators, moblie app, etc...
 Requiremetns
 
--Website part (40 points)
+Website part (40 points)
 
 	* 1x HTML file.-> Home page
 		       -> min. 5000 characters (source code)
