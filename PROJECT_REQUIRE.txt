@@ -1,0 +1,63 @@
+Project Specificatio and REQUIREMENTS.
+
+Specification
+
+	* Topic: Online Programming Courses.
+	* Creation of the SIMPLE webside.->see HTML part.
+	* Creation of the Data exchange format.-> article, list of articles. 
+					       -> for content affregators, moblie app, etc...
+Requiremetns
+
+-Website part (40 points)
+
+	* 1x HTML file.-> Home page
+		       -> min. 5000 characters (source code)
+		       -> Inclides min: Full header and navigation, various article lists, social media links, about info, fat footer.
+
+	* 1x CSS       -> min. 50 lines of code, maximum 100
+	* Valid HTML5 and CSS
+	* Syntactically and semantically correct
+	* Frameworks and templates are NOT ALLOWED
+	* Metadata descriptions -> basic meta elements in head
+				-> Microdata (schema.org): - min. 7 properties
+							   - min. 2 different itemtypes
+							   - or equivalent using JSON-LD
+				-> opengraph.org for Facebook
+	* Contains PROPERLY USED  at least each of the following elements:
+				-> head, meta, title, header, section, article, aside, time, footer, p, ul/ol, li, a, img, h1, h2, h3.
+	* FILE NAMES	
+				-> 1x index.html file
+				-> 1x style.css file
+				-> optionally Assets floder for any other media
+XML part(40 points)
+
+	* 1x main XML file, incliding data -> 5 demonstrational records (at any levle of XML file)
+					   -> min. 4 levels of nesting
+	* 1x XML Schema that defines	   -> 30 different elements (30 unique element names)
+					   -> 10 unique attributes 
+					   -> 5 custom, differemt restrictions (not generated): marked by comments
+	* 1x Functional transformation (XSLT) into JSON: use: for-each, sort, choose, if.
+	* FILE NAMES
+					   -> 1x XML file (data.xml)
+					   -> 1x XML shchema file (schema.xsd)
+					   -> 1x XSLT transformation file (transformation.xslt)
+					   -> 1x JSON result of the transformation (transformation_result.json)
+Documentation (20 points)
+
+	* Title page
+	* Table of contents
+	* Website description
+	* Data format description (XML Part)
+	* List of requirements -> As in this requrements page
+			       -> description of how they are addressed
+			       -> including screenshots, source code example. etc.
+	* Use of generatice AI -> Which tools have been utilized
+			       -> How it was utilized
+			       -> A critical assessment of its contribution, precision, and reliability.
+Submission
+	
+	* everything commpresses in one .zip file
+	* Max file size 5 MB.
+				 
+					 
+
