@@ -57,3 +57,10 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.hero .container {
+    background: url('imgs/hero-bg.png') no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 550px;
+}
