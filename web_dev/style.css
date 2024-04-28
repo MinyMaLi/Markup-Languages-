@@ -52,27 +52,31 @@ img {
 }
 /* Footer */
 
-.footer {
+footer {
     background-color: #333;
     text-align: center;
     margin: 0 auto;
     width: auto;
     padding-top: 5px;
-    padding-bottom: 5px;
-    color: #fff; 
+    padding-bottom: 5px;    
+    color: #fff;   
 }
 
-.footer .footer-content ul li {
+footer ul li {
     display: inline;
 }
 
-.footer a {
+footer a {
     color: #fff; 
 }
 
 .email 
 {
     font-style: italic;
+}
+
+.email {
+    display: inline-block;
 }
 
 
