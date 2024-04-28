@@ -3,11 +3,13 @@
   <!--Team Contributers:
     Leader: Yermekov Alibi
     Kharshiladze Lasha-->
-  <head>
+  <head itemscope itemtype="https://schema.org/EducationalOrganization">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Online English Courses at Kosmos"/>
-    <meta name="keywords" content="english, courses online, learn english, english school">
+    <meta itemprop="keywords" content="english, courses online, learn english, english school">
+    <link itemprop="url" href="#" />
+    
     <title>English Courses - KOSMOS</title>
     <!--This part is for adding a style for the text-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,8 +42,8 @@
     <header>
       <nav class="navbar">
         <div class="container">
-          <div class="logo">
-            <a href="index.html">
+          <div itemscope itemtype="https://schema.org/EducationalOrganization" class="logo">
+            <a itemprop="logo" href="index.html">
               <img
                 src="imgs/coworking-open-laptop-1.png"
                 alt="logo"
@@ -58,10 +60,10 @@
                 <a href="aboutus.html">About Us</a>
               </li>
               <li>
-                <a href="blog.html">Blog</a>
+                <a href="#">Blog</a>
               </li>
               <li>
-                <a href="#"> <i class="fas fa-phone"></i> Contact Us </a>
+                <a href="mailto:#"> <i class="fas fa-phone"></i> Contact Us </a>
               </li>
             </ul>
           </div>
@@ -114,19 +116,19 @@
 
     <!-- Footer-->
     <footer> 
-      <div class="container">
+      <div class="container" itemscope itemtype="https://schema.org/EducationalOrganization">
         <p class="copyright">&copy; 2024 KOSMOS</p>
         <nav class="footer-content">
           <ul>
               <li><a href="aboutus.html">About Us |</a></li>
-              <li><a href="#">Contact |</a></li>
+              <li><a href="mailto:#">Contact |</a></li>
               <li><a href="#">Privacy Policy |</a></li>
               <li><a href="#">Blog</a></li>
           </ul>
         </nav>
 
         <p class="pre email ">Send us an Email:</p>
-        <a class="email" href="mailto:">kosmos.contactus@gmail.com</a>
+        <a itemprop="email" class="email" href="mailto:">kosmos.contactus@gmail.com</a>
        
         </a>
 
@@ -150,8 +152,6 @@
             </a>
           </li>
         </ul>
-        
-        
       </div>
     </footer>
       
