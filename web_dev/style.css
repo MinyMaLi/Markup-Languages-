@@ -79,6 +79,11 @@ footer a {
     display: inline-block;
 }
 
+ion-icon {
+    margin: 0 10px;
+    font-size: 32px;
+}
+
 
 /* Utility Classes */
 
