@@ -31,7 +31,7 @@ Website part (40 points)
 				-> optionally Assets floder for any other media
 XML part(40 points)
 
-	* 1x main XML file, incliding data -> 5 demonstrational records (at any levle of XML file)
+	* 1x main XML file, incliding data -> 5 demonstrational records (at any levels of XML file)
 					   -> min. 4 levels of nesting
 	* 1x XML Schema that defines	   -> 30 different elements (30 unique element names)
 					   -> 10 unique attributes 
