@@ -55,13 +55,14 @@ img {
 .footer {
     background-color: #333;
     text-align: center;
-    margin: 0 auto; 
+    margin: 0 auto;
+    width: auto;
     padding-top: 5px;
     padding-bottom: 5px;
     color: #fff; 
 }
 
-.footer .content ul li {
+.footer .footer-content ul li {
     display: inline;
 }
 
@@ -73,6 +74,8 @@ img {
 {
     font-style: italic;
 }
+
+
 /* Utility Classes */
 
 .container {
@@ -97,4 +100,16 @@ img {
 
 .btn-primary:hover {
     color: #000;
+}
+
+/*Aboutus*/
+.aboutus {
+    width: 1100px;
+    margin: auto;
+}
+
+.about-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
