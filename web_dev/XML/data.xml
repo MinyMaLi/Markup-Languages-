@@ -1,11 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<webpage>
-    <articleList>
-        <article category="">
-            <name>History of english Language</name>
-            <author>Darth Vader</author>
-            <date>April 25, 2024</date>
-        </article>
-    </articleList>
-
-</webpage>
+<?xml version="1.0" encoding="UTF-8"?>
+<EnglishCourses>
+    <Course>
+        <Name>Beginner English</Name>
+        <SubscriptionType>Standard</SubscriptionType>
+        <Description>A basic English course for beginners.</Description>
+        <Price>100</Price>
+        <Duration>3 months</Duration>
+        <Schedule>
+            <Day>Monday</Day>
+            <Time>10:00 AM</Time>
+        </Schedule>
+    </Course>
+    <Course>
+        <Name>Intermediate English</Name>
+        <SubscriptionType>Premium</SubscriptionType>
+        <Description>An intermediate level English course.</Description>
+        <Price>150</Price>
+        <Duration>6 months</Duration>
+        <Schedule>
+            <Day>Wednesday</Day>
+            <Time>2:00 PM</Time>
+        </Schedule>
+    </Course>
+    <!-- Add more courses as needed -->
+</EnglishCourses>

@@ -1,0 +1,28 @@
+{
+    "EnglishCourses": {
+        "Courses": [
+            {
+                "Name": "Beginner English",
+                "SubscriptionType": "Standard",
+                "Description": "A basic English course for beginners.",
+                "Price": "100",
+                "Duration": "3 months",
+                "Schedule": {
+                    "Day": "Monday",
+                    "Time": "10:00 AM"
+                }
+            },
+            {
+                "Name": "Intermediate English",
+                "SubscriptionType": "Premium",
+                "Description": "An intermediate level English course.",
+                "Price": "150",
+                "Duration": "6 months",
+                "Schedule": {
+                    "Day": "Wednesday",
+                    "Time": "2:00 PM"
+                }
+            }
+        ]
+    }
+}
