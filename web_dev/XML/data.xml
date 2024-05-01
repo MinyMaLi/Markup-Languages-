@@ -42,13 +42,13 @@
             <t:teacher id = "t01">
                 <t:name>Legolas Greenleaf</t:name>
                 <t:email>bestArcher@kosmos.com</t:email>
-                <t:education>English B02</t:education>
+                <t:education>English B2</t:education>
             </t:teacher>
 
             <t:teacher id = "t02">
                 <t:name>Darth Vader</t:name>
                 <t:email>fortheempire@kosmos.com</t:email>
-                <t:education>English C02</t:education>
+                <t:education>English C2</t:education>
             </t:teacher>           
         </male>
     </teachers>

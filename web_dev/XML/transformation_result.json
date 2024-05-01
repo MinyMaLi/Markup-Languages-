@@ -73,13 +73,13 @@
         "id": "t01",
         "name": "Legolas Greenleaf",
         "email": "bestArcher@kosmos.com",
-        "education": "English B02"
+        "education": "English B2"
       },
       {
         "id": "t02",
         "name": "Darth Vader",
         "email": "fortheempire@kosmos.com",
-        "education": "English C02"
+        "education": "English C2"
       }
     ]
   }
