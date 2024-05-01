@@ -1,95 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
             xmlns:c="http://www.kosmos.com/courses"
             xmlns:t="http://www.kosmos.com/teachers"
             targetNamespace="http://www.kosmos.com/EnglishCourses"
             elementFormDefault="qualified">
 
-  <!-- Define the namespace prefixes -->
-  <xs:import namespace="http://www.kosmos.com/courses" schemaLocation="courses.xsd"/>
-  <xs:import namespace="http://www.kosmos.com/teachers" schemaLocation="teachers.xsd"/>
-
-  <!-- Define the root element -->
+  <!-- Defining the root element -->
   <xs:element name="englishCourses">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="courses"/>
-        <xs:element ref="teachers"/>
+        <!--Defining Courses element-->
+        <xs:element name="courses">
+          <xs:complexType>
+            <xs:sequence>
+                <!--Defining Course element-->
+              <xs:element name="course" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="subscriptiontype" type="xs:string"/>
+                    <xs:element name="description" type="xs:string"/>
+                    <xs:element name="price" type="xs:decimal"/>
+                    <xs:element name="duration" type="xs:string"/>
+                    <!--Defining schedule element-->
+                    <xs:element name="schedule">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="day" type="xs:string"/>
+                          <xs:element name="time" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <!--Defining image element-->
+                    <xs:element name="image">
+                      <xs:complexType>
+                        <xs:attribute name="src" type="xs:string" use="required"/>
+                        <xs:attribute name="alt" type="xs:string" use="required"/>
+                        <xs:attribute name="type" type="xs:string"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="teacher">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string"/>
+                          <xs:element name="email" type="xs:string"/>
+                          <xs:element name="subject" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
 
-  <!-- Define the courses element -->
-  <xs:element name="courses">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="course" maxOccurs="unbounded"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-
-  <!-- Define the course element -->
-  <xs:element name="course">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="c:name"/>
-        <xs:element ref="c:subscriptiontype"/>
-        <xs:element ref="c:description"/>
-        <xs:element ref="c:price"/>
-        <xs:element ref="c:duration"/>
-        <xs:element ref="c:schedule"/>
-      </xs:sequence>
-      <xs:attribute name="id" type="xs:string" use="required"/>
-    </xs:complexType>
-  </xs:element>
-
-  <!-- Define the schedule element -->
-  <xs:element name="schedule">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="day" type="xs:string"/>
-        <xs:element name="time" type="xs:string"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-
-  <!-- Define the teachers element -->
+  <!--Defining teachers element-->
   <xs:element name="teachers">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="male"/>
-        <xs:element ref="female"/>
+        <xs:element name="male">
+          <xs:complexType>
+            <xs:sequence>
+                <!--Defining teacher element-->
+              <xs:element name="teacher" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="email" type="xs:string"/>
+                    <xs:element name="education" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-
-  <!-- Define the male element -->
-  <xs:element name="male">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="t:teacher" maxOccurs="unbounded"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-
-  <!-- Define the female element -->
-  <xs:element name="female">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="t:teacher" maxOccurs="unbounded"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-
-  <!-- Define the teacher element -->
-  <xs:element name="teacher">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="t:name"/>
-        <xs:element ref="t:email"/>
-        <xs:element ref="t:subject"/>
-      </xs:sequence>
-      <xs:attribute name="id" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
 

@@ -1,28 +1,49 @@
 {
-    "EnglishCourses": {
-        "Courses": [
-            {
-                "Name": "Beginner English",
-                "SubscriptionType": "Standard",
-                "Description": "A basic English course for beginners.",
-                "Price": "100",
-                "Duration": "3 months",
-                "Schedule": {
-                    "Day": "Monday",
-                    "Time": "10:00 AM"
-                }
-            },
-            {
-                "Name": "Intermediate English",
-                "SubscriptionType": "Premium",
-                "Description": "An intermediate level English course.",
-                "Price": "150",
-                "Duration": "6 months",
-                "Schedule": {
-                    "Day": "Wednesday",
-                    "Time": "2:00 PM"
-                }
-            }
+    "englishCourses": {
+      "courses": [
+        {
+          "id": "id1",
+          "level": "level1",
+          "c:name": "name1",
+          "c:subscriptiontype": "subscriptiontype1",
+          "c:description": "description1",
+          "c:price": "price1",
+          "c:duration": "duration1",
+          "c:schedule": {
+            "day": "day1",
+            "time": "time1",
+            "length": "length1"
+          },
+          "c:image": {
+            "src": "src1",
+            "alt": "alt1"
+          },
+          "c:teacher": {
+            "name": "name1",
+            "email": "email1"
+          }
+        },
+        
+      ],
+      "teachers": {
+        "male": [
+          {
+            "id": "id1",
+            "t:name": "name1",
+            "t:email": "email1",
+            "t:education": "education1"
+          },
+          
+        ],
+        "female": [
+          {
+            "id": "id1",
+            "t:name": "name1",
+            "t:email": "email1",
+            "t:education": "education1"
+          },
+          
         ]
+      }
     }
-}
+  }

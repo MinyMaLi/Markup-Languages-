@@ -8,11 +8,7 @@
             <c:description>A basic English course for beginners.</c:description>
             <c:price>100</c:price>
             <c:duration>3 months</c:duration>
-            <c:schedule>
-                <c:day>Monday</c:day>
-                <c:time>10:00 AM</c:time>
-                <c:length>1 hour</c:length>
-            </c:schedule>
+            <c:schedule day= "Monday" time="10:00" length="1 hour"/>               
             <c:image src="#" alt="Begginer English"/>
             <c:teacher name="Darth Vader" email="fortheempire@kosmos.com"/>        
         </course>
@@ -23,11 +19,7 @@
             <c:description>An intermediate level English course.</c:description>
             <c:price>150</c:price>
             <c:duration>6 months</c:duration>
-            <c:schedule>
-                <c:day>Wednesday</c:day>
-                <c:time>2:00 PM</c:time>
-                <c:length>2 hour</c:length>
-            </c:schedule>
+            <c:schedule day= "Wednesday" time="14:00" length="2 hour"/> 
             <c:image src="#" alt="Intermediate English"/>
             <c:teacher name="Legolas Greenleaf" email="bestArcher@kosmos.com"/>
         </course>
@@ -38,18 +30,14 @@
             <c:description>An advanced level English course.</c:description>
             <c:price>150</c:price>
             <c:duration>6 months</c:duration>
-            <c:schedule>
-                <c:day>Friday</c:day>
-                <c:time>2:00 PM</c:time>
-                <c:length>4 hour</c:length>
-            </c:schedule>
+            <c:schedule day= "Friday" time="18:00 AM" length="2 hour"/> 
             <c:image src="#" alt="Advanced English"/>
             <c:teacher name="Luxana Brightheart" email="luxEnglish@kosmos.com"/>
         </course>
     </courses>
     
     <!-- Teachers-->
-    <teachers >
+    <teachers>
         <male>
             <t:teacher id = "t01">
                 <t:name>Legolas Greenleaf</t:name>
