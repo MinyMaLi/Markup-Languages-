@@ -32,7 +32,7 @@
             <c:duration>6 months</c:duration>
             <c:schedule day= "Friday" time="18:00 AM" length="2 hour"/> 
             <c:image src="#" alt="Advanced English"/>
-            <c:teacher name="Luxana Brightheart" email="luxEnglish@kosmos.com"/>
+            <c:teacher name="Darth Vader" email="fortheempire@kosmos.com"/>
         </course>
     </courses>
     
@@ -48,17 +48,9 @@
             <t:teacher id = "t02">
                 <t:name>Darth Vader</t:name>
                 <t:email>fortheempire@kosmos.com</t:email>
-                <t:education>English C01</t:education>
+                <t:education>English C02</t:education>
             </t:teacher>           
         </male>
-
-        <female>
-            <t:teacher id = "t03">
-                <t:name>Luxana Brightheart</t:name>
-                <t:email>luxEnglish@kosmos.com</t:email>
-                <t:education>English C02</t:education> 
-            </t:teacher>
-        </female>
     </teachers>
     
 </englishCourses>

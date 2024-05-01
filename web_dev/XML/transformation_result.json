@@ -1,49 +1,86 @@
 {
-    "englishCourses": {
-      "courses": [
-        {
-          "id": "id1",
-          "level": "level1",
-          "c:name": "name1",
-          "c:subscriptiontype": "subscriptiontype1",
-          "c:description": "description1",
-          "c:price": "price1",
-          "c:duration": "duration1",
-          "c:schedule": {
-            "day": "day1",
-            "time": "time1",
-            "length": "length1"
-          },
-          "c:image": {
-            "src": "src1",
-            "alt": "alt1"
-          },
-          "c:teacher": {
-            "name": "name1",
-            "email": "email1"
-          }
+  "englishCourses": {
+    "courses": [
+      {
+        "id": "c01",
+        "level": "Beginner",
+        "name": "Beginner English",
+        "subscriptiontype": "Standard",
+        "description": "A basic English course for beginners.",
+        "price": "100",
+        "duration": "3 months",
+        "schedule": {
+          "day": "Monday",
+          "time": "10:00",
+          "length": "1 hour"
         },
-        
-      ],
-      "teachers": {
-        "male": [
-          {
-            "id": "id1",
-            "t:name": "name1",
-            "t:email": "email1",
-            "t:education": "education1"
-          },
-          
-        ],
-        "female": [
-          {
-            "id": "id1",
-            "t:name": "name1",
-            "t:email": "email1",
-            "t:education": "education1"
-          },
-          
-        ]
+        "image": {
+          "src": "#",
+          "alt": "Beginner English"
+        },
+        "teacher": {
+          "name": "Darth Vader",
+          "email": "fortheempire@kosmos.com"
+        }
+      },
+      {
+        "id": "c02",
+        "level": "Advanced",
+        "name": "Intermediate English",
+        "subscriptiontype": "Premium",
+        "description": "An intermediate level English course.",
+        "price": "150",
+        "duration": "6 months",
+        "schedule": {
+          "day": "Wednesday",
+          "time": "14:00",
+          "length": "2 hour"
+        },
+        "image": {
+          "src": "#",
+          "alt": "Intermediate English"
+        },
+        "teacher": {
+          "name": "Legolas Greenleaf",
+          "email": "bestArcher@kosmos.com"
+        }
+      },
+      {
+        "id": "c03",
+        "level": "Advanced",
+        "name": "Advanced English",
+        "subscriptiontype": "Premium",
+        "description": "An advanced level English course.",
+        "price": "150",
+        "duration": "6 months",
+        "schedule": {
+          "day": "Friday",
+          "time": "18:00 AM",
+          "length": "2 hour"
+        },
+        "image": {
+          "src": "#",
+          "alt": "Advanced English"
+        },
+        "teacher": {
+          "name": "Darth Vader",
+          "email": "fortheempire@kosmos.com"
+        }
       }
-    }
+    ],
+    "teachers": [
+      {
+        "id": "t01",
+        "name": "Legolas Greenleaf",
+        "email": "bestArcher@kosmos.com",
+        "education": "English B02"
+      },
+      {
+        "id": "t02",
+        "name": "Darth Vader",
+        "email": "fortheempire@kosmos.com",
+        "education": "English C02"
+      }
+    ]
   }
+}
