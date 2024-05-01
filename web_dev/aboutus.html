@@ -27,7 +27,7 @@
     />
   </head>
 
-  <body>
+  <body class="body-aboutus">
     <!--Header-->
     <header>
       <nav class="navbar">
@@ -97,29 +97,23 @@
       </section>
 
       <!--Footer-->
-      <footer class="about-footer"> 
-          <div class="container">
-            <p class="copyright">&copy; 2024 KOSMOS</p>
-            <nav class="footer-content">
-              <ul>
-                <li><a href="aboutus.html">
-                  About Us |
-                </a></li>
-                <li><a href="#">
-                  Contact |
-                </a></li>
-                <li><a href="#">
-                  Privacy Policy |
-                </a></li>
-                <li><a href="#">
-                  Blog
-                </a></li>
-              </ul>
-            </nav>
-
-            <p class="preemail">Send us an Email:</p>
-            <a class="email" href="mailto:">kosmos.contactus@gmail.com</a>
-          </div>
+      <footer class="footer-aboutus"> 
+        <div class="container" itemscope itemtype="https://schema.org/EducationalOrganization">
+          <p class="copyright">&copy; 2024 KOSMOS</p>
+          <nav class="footer-content">
+            <ul>
+                <li><a href="aboutus.html">About Us |</a></li>
+                <li><a href="mailto:#">Contact |</a></li>
+                <li><a href="#">Privacy Policy |</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul> </nav>
+  
+          <p class="pre email ">Send us an Email:</p>
+          <a itemprop="email" class="email" href="mailto:">kosmos.contactus@gmail.com</a>
+         
+          </a>
+  
+          <!--Social media-->
           <ul class="Social">
             <li><a class="twitter" href="https://twitter.com" target="_blank">
               <ion-icon name="logo-twitter"></ion-icon></li>
@@ -139,6 +133,7 @@
               </a>
             </li>
           </ul>
+        </div>
       </footer>
     </main>
 

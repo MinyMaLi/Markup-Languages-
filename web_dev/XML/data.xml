@@ -1,26 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<EnglishCourses>
-    <Course>
-        <Name>Beginner English</Name>
-        <SubscriptionType>Standard</SubscriptionType>
-        <Description>A basic English course for beginners.</Description>
-        <Price>100</Price>
-        <Duration>3 months</Duration>
-        <Schedule>
-            <Day>Monday</Day>
-            <Time>10:00 AM</Time>
-        </Schedule>
-    </Course>
-    <Course>
-        <Name>Intermediate English</Name>
-        <SubscriptionType>Premium</SubscriptionType>
-        <Description>An intermediate level English course.</Description>
-        <Price>150</Price>
-        <Duration>6 months</Duration>
-        <Schedule>
-            <Day>Wednesday</Day>
-            <Time>2:00 PM</Time>
-        </Schedule>
-    </Course>
-    <!-- Add more courses as needed -->
-</EnglishCourses>
+<englishCourses xmlns:c="http://www.kosmos.com/courses" xmlns:t="http://www.kosmos.com/teachers">
+    <!-- Courses-->
+    <courses>
+        <course id = "c01" level = "Beginer">
+            <c:name>Beginner English</c:name>
+            <c:subscriptiontype>Standard</c:subscriptiontype>
+            <c:description>A basic English course for beginners.</c:description>
+            <c:price>100</c:price>
+            <c:duration>3 months</c:duration>
+            <c:schedule>
+                <c:day>Monday</c:day>
+                <c:time>10:00 AM</c:time>
+                <c:length>1 hour</c:length>
+            </c:schedule>
+            <c:image src="#" alt="Begginer English"/>
+            <c:teacher name="Darth Vader" email="fortheempire@kosmos.com"/>        
+        </course>
+
+        <course id = "c02" level = "Advanced">
+            <c:name>Intermediate English</c:name>
+            <c:subscriptiontype>Premium</c:subscriptiontype>
+            <c:description>An intermediate level English course.</c:description>
+            <c:price>150</c:price>
+            <c:duration>6 months</c:duration>
+            <c:schedule>
+                <c:day>Wednesday</c:day>
+                <c:time>2:00 PM</c:time>
+                <c:length>2 hour</c:length>
+            </c:schedule>
+            <c:image src="#" alt="Intermediate English"/>
+            <c:teacher name="Legolas Greenleaf" email="bestArcher@kosmos.com"/>
+        </course>
+
+        <course id = "c03" level = "Advanced">
+            <c:name>Advanced English</c:name>
+            <c:subscriptiontype>Premium</c:subscriptiontype>
+            <c:description>An advanced level English course.</c:description>
+            <c:price>150</c:price>
+            <c:duration>6 months</c:duration>
+            <c:schedule>
+                <c:day>Friday</c:day>
+                <c:time>2:00 PM</c:time>
+                <c:length>4 hour</c:length>
+            </c:schedule>
+            <c:image src="#" alt="Advanced English"/>
+            <c:teacher name="Luxana Brightheart" email="luxEnglish@kosmos.com"/>
+        </course>
+    </courses>
+    
+    <!-- Teachers-->
+    <teachers >
+        <male>
+            <t:teacher id = "t01">
+                <t:name>Legolas Greenleaf</t:name>
+                <t:email>bestArcher@kosmos.com</t:email>
+                <t:education>English B02</t:education>
+            </t:teacher>
+
+            <t:teacher id = "t02">
+                <t:name>Darth Vader</t:name>
+                <t:email>fortheempire@kosmos.com</t:email>
+                <t:education>English C01</t:education>
+            </t:teacher>           
+        </male>
+
+        <female>
+            <t:teacher id = "t03">
+                <t:name>Luxana Brightheart</t:name>
+                <t:email>luxEnglish@kosmos.com</t:email>
+                <t:education>English C02</t:education> 
+            </t:teacher>
+        </female>
+    </teachers>
+    
+</englishCourses>
