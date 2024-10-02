@@ -167,11 +167,14 @@ ion-icon {
     text-align: center;
     margin: 0 auto;
     width: auto;  
-    color: #fff;   
-    position: flex;
+    color: #fff;  
     margin-top: auto;
     margin: 0 10px;
-    padding: 20px 0;
+    padding: 1rem;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right:0;
 }
 .footer-aboutus ul {
     list-style: none;
